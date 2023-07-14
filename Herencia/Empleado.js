@@ -1,5 +1,5 @@
 class Empleado extends Persona {
-    static contadorEmpleados;
+    static contadorEmpleados = 0;
     constructor(sueldo){
         this._idEmpleados = ++Empleado.contadorEmpleados;
         this._sueldo = sueldo
